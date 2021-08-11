@@ -1,0 +1,71 @@
+.navigation{
+    height: 80px !important;
+}
+
+.banner{
+    height: 750px;
+    background-color:aquamarine;
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg');
+    background-size: cover;
+    display: flex;
+    /* to take banner at center of screen */
+    align-items: center;  
+    /* to shift banner at end of display */
+    justify-content: flex-end;
+}
+
+
+.banner_content{
+    background-color: rgb(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+
+}
+
+.padd{
+    padding:30px;
+}
+
+.b_title{
+    font-size: 50px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.destination{
+    padding-top:  50px;
+    padding-bottom: 50px;
+}
+
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+/* .nav-item{
+    color:aliceblue;
+}
+.nav-link{
+    color: aliceblue;
+}
+/* 
+.navbar{ */
+    /* background-color:black;
+} */ 
+
+@media (max-width:500px) {
+
+
+    .banner{
+        height: 600px;
+    }
+
+}
